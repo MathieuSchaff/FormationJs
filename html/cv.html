@@ -8,15 +8,81 @@
   </head>
   <body>
     <header>
+      <h1>Hi, I am Mathieu, web developer</h1>
       <nav>
         <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
+          <li><a href="#about">Who I am? </a></li>
+          <li><a href="#myworks">What did I do? </a></li>
+          <li><a href="#form">Contact me</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div id="about" class="about">
+        <h2>Who I am <span>?</span></h2>
+        <p>
+          French guy, born in 1993. I worked in the french army, where I was the
+          an IT guy.
+        </p>
+        <p>I was a system administrator there</p>
+        <p>
+          I learned a lot about system administration, network administration,
+          security, and the IT world. But I prefered doing website development.
+        </p>
+      </div>
+      <div>
+        <h2>About me</h2>
+        <p>
+          I’m a self-taught Front-End Developer located in France. I have a
+          serious passion for UI effects, animations and creating intuitive,
+          dynamic user experiences.
+        </p>
+        <p>
+          Interested in the entire frontend spectrum, I’m always looking for new
+          challenges and opportunities to learn new things.! <br />I am also
+          passionate about blockchain technology.
+        </p>
+        <p>
+          In my free time, apart from coding, I like traveling, meeting new
+          people, and scuba diving.
+        </p>
+      </div>
+      <form id="form" method="post" action="">
+        <label for="username" class="label"> Username : </label>
+        <input
+          placeholder="Name"
+          type="text"
+          id="username"
+          name="username"
+          required
+          aria-required="true"
+          aria-label="your name here"
+          aria-labelledby="username"
+        />
+        <label for="email" class="label"> Email : </label>
+
+        <input
+          type="email"
+          required
+          placeholder="Email"
+          id="email"
+          name="email"
+          aria-required="true"
+          aria-label="your email here"
+          aria-labelledby="email"
+        />
+        <label for="message" class="label"> Message : </label>
+        <textarea
+          name="message"
+          required
+          placeholder="Message"
+          aria-label="your message here"
+          aria-labelledby="message"
+        />
+        <input id="message" type="submit" value="Send" class="flat-button" />
+      </form>
+      <p>Les champs précédés d'une étoile (*) sont obligatoires</p>
+    </main>
     <footer></footer>
   </body>
 </html>
