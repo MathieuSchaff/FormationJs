@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../fontello/css/fontello.css" />
     <title>CV Mathieu</title>
   </head>
   <body>
@@ -14,10 +15,18 @@
           <li><a href="#about">Who I am? </a></li>
           <li><a href="#myworks">What did I do? </a></li>
           <li><a href="#form">Contact me</a></li>
+          <li class="icon-right-open">aaaa</li>
         </ul>
       </nav>
     </header>
     <main>
+      <div class="span3" title="Code: 0xf308">
+        <i class="demo-icon icon-facebook-squared"></i>
+        <span class="i-name">icon-facebook-squared</span
+        ><span class="i-code">0xf308</span>
+      </div>
+      <!-- <i class="demo-icon icon-facebook-squared">&#xf308;</i> -->
+
       <div id="about" class="about">
         <h2>Who I am <span>?</span></h2>
         <p>
@@ -73,12 +82,13 @@
         />
         <label for="message" class="label"> Message : </label>
         <textarea
+          id="message"
           name="message"
           required
           placeholder="Message"
           aria-label="your message here"
           aria-labelledby="message"
-        />
+        ></textarea>
         <input id="message" type="submit" value="Send" class="flat-button" />
       </form>
       <p>Les champs précédés d'une étoile (*) sont obligatoires</p>
