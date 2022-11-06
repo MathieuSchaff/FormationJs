@@ -1,0 +1,11 @@
+@import "../variables";
+@import "../mixins";
+.app {
+  h2 {
+    color: $color-blue;
+    margin: 1rem;
+  }
+}
+.app__divider {
+  margin-top: 2rem;
+}

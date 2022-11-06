@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@400;700&display=swap");
+
+// PRIMARY COLORS
+$white-color: #ffffff;
+$primary-color: rgb(82, 188, 250);
+$secondary-color: rgba(82, 188, 250, 0.445);
+$third-color: rgb(172, 17, 233);
+$four-color: rgba(172, 17, 233, 0.274);
+$four-colorFull: rgb(30%, 4%, 61%);
+$dark-grey: #000000;
+$color-grey: #f3f3f3;
+$color-blue: #3a4fcf;
+// BORDERS
+$white-border-thin: 1px solid $white-color;
+$white-border-large: 3px solid $white-color;
+
+// FONTS WEIGHT
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// FONT FAMILY
+$font-primary: "Inter", sans-serif;
+$font-secondary: "Montserrat", sans-serif;
+// FONTS SIZE
+$font-heading-1: 4rem;
+$font-heading-2: 2.5rem;
+$font-heading-3: 2rem;
+$font-size-body: 1.8rem;
+$font-size-element: 14px;
+
+// FONT LINE HEIGHT
+$font-line-height-heading-1: 48px;
+$font-line-height-heading-2: 40px;
+$font-line-height-heading-3: 26px;
+$font-line-height-body: 26px;
+
+// FONT LETTER SPACING
+$font-letter-spacing-middle: 2px;
+$font-letter-spacing-high: 5px;
