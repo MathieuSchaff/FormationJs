@@ -4,98 +4,211 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <!-- <link rel="stylesheet" href="./css/index.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>CV Mathieu</title>
   </head>
   <body>
-    <header>
-      <h1>
-        Hi<span>,</span> I am Mathieu<span>,</span>
-        <div>web-developer</div>
-      </h1>
-      <nav class="header__nav">
-        <ul class="nav__ul">
-          <li class="ul__listItem"><a href="#about">Who I am? </a></li>
-          <li class="ul__listItem"><a href="#myworks">What did I do? </a></li>
-          <li class="ul__listItem"><a href="#form">Contact me</a></li>
+    <header
+      class="d-flex justify-content-between pt-2 pb-2 bg-secondary col text-white"
+    >
+      <div></div>
+      <h1>EMO</h1>
+      <nav class="d-flex justify-content-center align-items-center">
+        <ul class="d-flex justify-content-between list-unstyled">
+          <li class="me-2">Activer le mode admin</li>
+          <li class="me-2">Se deconnecter</li>
         </ul>
       </nav>
     </header>
-    <main class="app">
-      <div id="about" class="app__divider app__whoAmI">
-        <h2>Who I am <span>?</span></h2>
-        <p>
-          French guy, born in 1993. I worked in the french army, where I was the
-          an IT guy.
-        </p>
-        <p>I was a system administrator there</p>
-        <p>
-          I learned a lot about system administration, network administration,
-          security, and the IT world. But I prefered doing website development.
-        </p>
-      </div>
-      <div class="app__divider app__about">
-        <h2>About me</h2>
-        <p>
-          I’m a self-taught Front-End Developer located in France. I have a
-          serious passion for UI effects, animations and creating intuitive,
-          dynamic user experiences.
-        </p>
-        <p>
-          Interested in the entire frontend spectrum, I’m always looking for new
-          challenges and opportunities to learn new things.! <br />I am also
-          passionate about blockchain technology.
-        </p>
-        <p>
-          In my free time, apart from coding, I like traveling, meeting new
-          people, and scuba diving.
-        </p>
-      </div>
-      <div class="app__divider app__contactMe">
-        <h2>Contact me :</h2>
-        <form id="form" method="post" action="" class="contactMe__form">
-          <fieldset>
-            <label for="username" class="label"> Username : </label>
-            <input
-              placeholder="Name"
-              type="text"
-              id="username"
-              name="username"
-              required
-              aria-required="true"
-              aria-label="your name here"
-              aria-labelledby="username"
-            />
-          </fieldset>
-          <fieldset>
-            <label for="email" class="label"> Email : </label>
-            <input
-              type="email"
-              required
-              placeholder="Email"
-              id="email"
-              name="email"
-              aria-required="true"
-              aria-label="your email here"
-              aria-labelledby="email"
-            />
-          </fieldset>
-          <fieldset>
-            <label for="message" class="label"> Message : </label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              placeholder="Message"
-              aria-label="your message here"
-              aria-labelledby="message"
-            ></textarea>
-          </fieldset>
-
-          <input id="message" type="submit" value="Send" />
-        </form>
+    <main>
+      <div class="container">
+        <h1>Boostrap</h1>
+        <nav>
+          <ul class="list-unstyled d-flex justify-content-center">
+            <li><button class="btn btn-success ms-2 me-2">+</button></li>
+            <li>
+              <button class="btn btn-secondary ms-2 me-2 active">
+                bootstrap
+              </button>
+            </li>
+            <li><button class="btn btn-secondary ms-2 me-2">HTML</button></li>
+            <li><button class="btn btn-secondary ms-2 me-2">>sas</button></li>
+            <li><button class="btn btn-secondary ms-2 me-2">vscode</button></li>
+          </ul>
+        </nav>
+        <div class="containerSection">
+          <section class="">
+            <div class="d-flex">
+              <button class="btn btn-success me-2">+</button>
+              <h4>A apprendre</h4>
+            </div>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+          </section>
+          <section class="">
+            <div class="d-flex">
+              <button class="btn btn-success me-2">+</button>
+              <h4>A apprendre</h4>
+            </div>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+          </section>
+          <section class="">
+            <div class="d-flex">
+              <button class="btn btn-success me-2">+</button>
+              <h4>A apprendre</h4>
+            </div>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+          </section>
+          <section class="">
+            <div class="d-flex">
+              <button class="me-2 btn btn-success">+</button>
+              <h4>A apprendre</h4>
+            </div>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+            <article class="bg-secondary text-white mt-3 mb-3 p-3">
+              <p>Je suis un artcicle qui dit des trucs</p>
+              <button class="btn btn-warning">Proposer une réponse</button>
+            </article>
+          </section>
+        </div>
       </div>
     </main>
-    <footer></footer>
+    <!-- <header>
+        <h1>
+          Hi<span>,</span> I am Mathieu<span>,</span>
+          <div>web-developer</div>
+        </h1>
+        <nav class="header__nav">
+          <ul class="nav__ul">
+            <li class="ul__listItem"><a href="#about">Who I am? </a></li>
+            <li class="ul__listItem"><a href="#myworks">What did I do? </a></li>
+            <li class="ul__listItem"><a href="#form">Contact me</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="app">
+        <div id="about" class="app__divider app__whoAmI">
+          <h2>Who I am <span>?</span></h2>
+          <p>
+            French guy, born in 1993. I worked in the french army, where I was
+            the an IT guy.
+          </p>
+          <p>I was a system administrator there</p>
+          <p>
+            I learned a lot about system administration, network administration,
+            security, and the IT world. But I prefered doing website
+            development.
+          </p>
+        </div>
+        <div class="app__divider app__about">
+          <h2>About me</h2>
+          <p>
+            I’m a self-taught Front-End Developer located in France. I have a
+            serious passion for UI effects, animations and creating intuitive,
+            dynamic user experiences.
+          </p>
+          <p>
+            Interested in the entire frontend spectrum, I’m always looking for
+            new challenges and opportunities to learn new things.! <br />I am
+            also passionate about blockchain technology.
+          </p>
+          <p>
+            In my free time, apart from coding, I like traveling, meeting new
+            people, and scuba diving.
+          </p>
+        </div>
+        <div class="app__divider app__contactMe">
+          <h2>Contact me :</h2>
+          <form id="form" method="post" action="" class="contactMe__form">
+            <fieldset>
+              <label for="username" class="label"> Username : </label>
+              <input
+                placeholder="Name"
+                type="text"
+                id="username"
+                name="username"
+                required
+                aria-required="true"
+                aria-label="your name here"
+                aria-labelledby="username"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="email" class="label"> Email : </label>
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                id="email"
+                name="email"
+                aria-required="true"
+                aria-label="your email here"
+                aria-labelledby="email"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="message" class="label"> Message : </label>
+              <textarea
+                id="message"
+                name="message"
+                required
+                placeholder="Message"
+                aria-label="your message here"
+                aria-labelledby="message"
+              ></textarea>
+            </fieldset>
+
+            <input id="message" type="submit" value="Send" />
+          </form>
+      </main>
+      <footer></footer> -->
   </body>
 </html>
