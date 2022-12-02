@@ -1,0 +1,7 @@
+img {
+  transition: transform 0.5s;
+  width: 150px;
+}
+img:active {
+  transform: translate(calc(100vw + 150px));
+}
