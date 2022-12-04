@@ -1,7 +1,9 @@
-img {
-  transition: transform 0.5s;
-  width: 150px;
+body {
+  position: absolute;
 }
-img:active {
-  transform: translate(calc(100vw + 150px));
+img {
+  position: relative;
+  top: 10;
+  left: 0;
+  width: 150px;
 }
